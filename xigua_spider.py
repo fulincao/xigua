@@ -106,7 +106,7 @@ if __name__ == '__main__':
 	chrome_options.add_argument('--headless')
 	browser = webdriver.Chrome(chrome_options=chrome_options)
 	
-	connect = MongoClient(host='10.5.0.80', port=38000)
+	connect = MongoClient(host='xxx', port=12345)
 	db = connect['ian_video']
 	collection = db['xigua']
 	mkdirs_video()
