@@ -107,7 +107,7 @@ if __name__ == '__main__':
 	browser = webdriver.Chrome(chrome_options=chrome_options)
 	
 	connect = MongoClient(host='xxx', port=12345)
-	db = connect['ian_video']
+	db = connect['video']
 	collection = db['xigua']
 	mkdirs_video()
 	
